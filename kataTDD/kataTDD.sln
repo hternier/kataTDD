@@ -3,13 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
 VisualStudioVersion = 14.0.25123.0
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "kataTDD.Runner", "kataTDD\kataTDD.Runner.csproj", "{13C030C1-E1B5-437E-9264-EC0BA44901ED}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "kataTDD.Test", "kataTDD.Test\kataTDD.Test.csproj", "{2E5055E3-AF36-4DD0-8892-94465F40D528}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "kataTDD.Service", "kataTDD.Service\kataTDD.Service.csproj", "{B92825C1-7E99-4352-B941-5699619EFA03}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "kataTDD.Contract", "kataTDD.Contract\kataTDD.Contract.csproj", "{00A044E9-E453-4EB9-ABB4-D86B48E1CD1E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "kataTDD.Runner", "kataTDD.Runner\kataTDD.Runner.csproj", "{13C030C1-E1B5-437E-9264-EC0BA44901ED}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -17,10 +17,6 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{13C030C1-E1B5-437E-9264-EC0BA44901ED}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{13C030C1-E1B5-437E-9264-EC0BA44901ED}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{13C030C1-E1B5-437E-9264-EC0BA44901ED}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{13C030C1-E1B5-437E-9264-EC0BA44901ED}.Release|Any CPU.Build.0 = Release|Any CPU
 		{2E5055E3-AF36-4DD0-8892-94465F40D528}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{2E5055E3-AF36-4DD0-8892-94465F40D528}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2E5055E3-AF36-4DD0-8892-94465F40D528}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -33,6 +29,10 @@ Global
 		{00A044E9-E453-4EB9-ABB4-D86B48E1CD1E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{00A044E9-E453-4EB9-ABB4-D86B48E1CD1E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{00A044E9-E453-4EB9-ABB4-D86B48E1CD1E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{13C030C1-E1B5-437E-9264-EC0BA44901ED}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{13C030C1-E1B5-437E-9264-EC0BA44901ED}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{13C030C1-E1B5-437E-9264-EC0BA44901ED}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{13C030C1-E1B5-437E-9264-EC0BA44901ED}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
